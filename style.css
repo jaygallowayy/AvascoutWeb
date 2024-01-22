@@ -1,0 +1,97 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e5dc; 
+}
+
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    max-width: 100px;
+    margin-bottom: 5px;
+}
+
+#logo-text {
+    margin: 0;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+#header-content,
+#header-links {
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+header a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 0;
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 50%;
+    color: #ff6f61;
+    padding: 20px;
+    border: 4px solid #ff6f61; /* Thicker coral border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.right-column {
+    width: 50%;
+}
+
+/* Style for the clay court image */
+.clay-court-image {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
