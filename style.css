@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ff6f61;
+    background: linear-gradient(to right, #ff6f61, #ff9d6f); /* Coral gradient background */
     color: #fff;
     padding: 20px;
     display: flex;
@@ -21,14 +21,14 @@ header {
 }
 
 #logo {
-    max-width: 100px;
+    max-width: 90px;
     margin-bottom: 5px;
 }
 
 #logo-text {
     margin: 0;
     font-family: 'Bungee Shade', cursive;
-    font-size: 1.2em;
+    font-size: 1em;
     display: inline-block;
 }
 
@@ -74,20 +74,20 @@ section {
     overflow-y: auto;
 }
 
+
 .right-column {
-    width: 50%;
+    width: 50%; /* Adjusted to give more space to the image */
 }
 
 /* Style for the clay court image */
 .clay-court-image {
-    width: 100%; 
+    width: 100%;
     height: auto;
     display: block;
 }
 
-
 footer {
-    background-color: #ff6f61;
+    background: linear-gradient(to right, #ff6f61, #ff9d6f);
     color: #fff;
     text-align: center;
     padding: 10px;
